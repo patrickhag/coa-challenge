@@ -1,8 +1,8 @@
-## Repo description
+## COA TAKE-HOME CHALLENGE
 
 ### Overview
 
-This repo consist of an interactive image gallery using HTML, CSS, and JavaScript. It includes basic styling and interactive features. Due to browser-specific behavior, you may notice that hover interactions might not respond on small screens when using Google Chrome. For a better experience, I recommended to use Mozilla Firefox for testing hover and opacity feature on small screens.
+This repo consist of a project of an interactive image gallery using HTML, CSS, and JavaScript as well other two coding challenges. The project includes basic styling and interactive features. While coding challenges are just vanilla Javascript codes. Due to browser-specific behavior, you may notice that hover interactions might not respond on small screens when using Google Chrome. For a better experience, I recommended to use Mozilla Firefox for testing hover and opacity feature on small screens.
 
 ### Project Structure
 
