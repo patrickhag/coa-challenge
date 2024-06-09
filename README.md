@@ -40,4 +40,4 @@ The project consists of the following files and folders:
    - **Mozilla Firefox**: For the best experience, especially for hover interactions on small screens, use Mozilla Firefox.
    - **Google Chrome**: While the project can be viewed in Chrome, hover interactions may not respond properly on small screens.
 
-`Looking forward to hearing from you!`
+`Looking forward to hearing from you guys!`
