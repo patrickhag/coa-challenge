@@ -17,7 +17,7 @@ The project consists of the following files and folders:
 ### How to Run the Project
 
 1. **Clone the Repository**
-   If the project is hosted on a version control system like Git, clone the repository to your local machine:
+   Clone the repository to your local machine:
 
    ```sh
    git clone <repository-url>
