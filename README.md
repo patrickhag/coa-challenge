@@ -14,7 +14,7 @@ The project consists of the following files and folders:
 - `images`: This folder contains the project images
 - `challenges`: This folder contains coding questions of the challenge, you may run those questions using node runtime environment or your console in browser.
 
-### Instructions to Run the Project
+### How to Run the Project
 
 1. **Clone the Repository**
    If the project is hosted on a version control system like Git, clone the repository to your local machine:
