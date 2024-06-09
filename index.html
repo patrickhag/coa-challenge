@@ -9,7 +9,11 @@
   <body>
     <div class="image-container">
       <div class="img-item">
-        <img src="./images/fox.jpg" alt="Fox's image" />
+        <img
+          src="./images/fox.jpg"
+          alt="Fox's image"
+          onclick="openModal(this.src)"
+        />
         <div class="img-heading">
           <h3>FENNEC</h3>
           <h3>FOX</h3>
@@ -17,7 +21,11 @@
         </div>
       </div>
       <div class="img-item" id="img-item">
-        <img src="./images/whale.jpg" alt="Whale's image" />
+        <img
+          src="./images/whale.jpg"
+          alt="Whale's image"
+          onclick="openModal(this.src)"
+        />
         <div class="img-heading">
           <h3>HUMPBACK</h3>
           <h3>WHALE</h3>
@@ -25,7 +33,11 @@
         </div>
       </div>
       <div class="img-item" id="img-item">
-        <img src="./images/baboon.jpg" alt="Baboon's image" />
+        <img
+          src="./images/baboon.jpg"
+          alt="Baboon's image"
+          onclick="openModal(this.src)"
+        />
         <div class="img-heading">
           <h3>HUMPBACK</h3>
           <h3>WHALE</h3>
@@ -33,12 +45,20 @@
         </div>
       </div>
       <div class="img-item" id="img-item">
-        <img src="./images/deer.jpg" alt="Deer's image" />
+        <img
+          src="./images/deer.jpg"
+          alt="Deer's image"
+          onclick="openModal(this.src)"
+        />
         <div class="img-heading">
           <h3>SPOTTED</h3>
           <h3>DEER</h3>
           <p>Amazon</p>
         </div>
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage" />
       </div>
     </div>
     <script src="./script.js"></script>
