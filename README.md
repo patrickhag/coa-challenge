@@ -1,8 +1,8 @@
-## Project README
+## Repo description
 
 ### Overview
 
-This repo consist of an interactive image gallery using HTML, CSS, and JavaScript. It includes basic styling and interactive features. Due to browser-specific behavior, you may notice that hover interactions might not respond on small screens when using Google Chrome. For a better experience, I recommended to use Mozilla Firefox for testing hover interactions and opacity feature on small screens.
+This repo consist of an interactive image gallery using HTML, CSS, and JavaScript. It includes basic styling and interactive features. Due to browser-specific behavior, you may notice that hover interactions might not respond on small screens when using Google Chrome. For a better experience, I recommended to use Mozilla Firefox for testing hover and opacity feature on small screens.
 
 ### Project Structure
 
@@ -39,3 +39,5 @@ The project consists of the following files and folders:
 4. **Recommended Browser**
    - **Mozilla Firefox**: For the best experience, especially for hover interactions on small screens, use Mozilla Firefox.
    - **Google Chrome**: While the project can be viewed in Chrome, hover interactions may not respond properly on small screens.
+
+`Looking forward to hearing from you!`
