@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+  --primary-font: 'Roboto Condensed', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 4fr));
+  background-color: #000;
+}
+
+.img-item {
+  width: 100%;
+  position: relative;
+}
+
+.img-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  height: 100vh;
+  padding-right: 3px;
+  object-fit: cover;
+}
+
+.img-item img:hover {
+  border: 2px solid rgb(210, 32, 210, 0.8);
+}
+
+.img-heading {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 3.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.img-heading h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: var(--primary-font);
+}
+
+.img-heading p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: var(--secondary-font);
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 2fr));
+    overflow: hidden;
+  }
+  .img-heading {
+    display: none;
+  }
+  .img-item img:hover {
+    border: none;
+    opacity: 0.1;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+}
